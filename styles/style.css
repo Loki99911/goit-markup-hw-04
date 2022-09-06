@@ -153,7 +153,7 @@ img {
 /* hero */
 .hero {
   text-align: center;
-    padding-top: 200px;
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 .overlay {
@@ -272,7 +272,7 @@ img {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-.team-content{
+.team-content {
   padding: 30px 32px;
 }
 
@@ -351,7 +351,7 @@ img {
   padding-bottom: 60px;
 }
 .footer-contact {
-  display: block; 
+  display: block;
   margin-right: 70px;
 }
 .footer-join {
@@ -481,13 +481,14 @@ address {
 .portfolio-list .item {
   flex-basis: calc((100% - 60px) / 3);
 }
-.portfolio-link{
-  color:inherit;
+.portfolio-link {
+  color: inherit;
 }
- .portfolio-link:hover {
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-    display: block;
+  display: block;
 }
 
 .item-border {
