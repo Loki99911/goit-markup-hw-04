@@ -152,11 +152,10 @@ img {
 }
 /* hero */
 .hero {
+  margin: 0 auto;
   text-align: center;
-  /* padding-top: 200px;
-  padding-bottom: 200px; */
-}
-.overlay {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -167,10 +166,10 @@ img {
   background-position: center;
   background-size: cover;
   max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 200px;
+}
+.overlay {
+  display: inline-block;
+  max-width: 696px;
 }
 .hero-title {
   margin-bottom: 30px;
